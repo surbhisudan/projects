@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   font-family: 'Ubuntu', sans-serif;
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+nav img{
+    width:100px
+}
+button{
+    padding:10px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 600;
+}
+ button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.main-left{
+    margin: 100px;
+    width:40%;
+}
+.main-left h1{
+    font-weight: 900;
+    color: rgba(74, 6, 137, 0.642);
+    font-size: 50px;
+    padding: 10px;
+}
+span{
+    color: rgb(130, 22, 231);
+}
+.main-left p{
+    color: gray;
+    font-weight: 700;
+    padding: 10px;
+}
+.main-right img{
+     width:500px;
+     margin-right: 30px;
+     margin-top:100px ;
+
+}
