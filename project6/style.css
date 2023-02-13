@@ -1,0 +1,45 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: #36e0bb;
+    text-align: center;
+}
+p{
+    display:none;
+}
+    
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+   body{
+    background-color: #186514;
+   }
+   .larger{
+    display: inline;
+   }
+}
+      
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    body{
+        background-color:rgba(218, 205, 24, 0.436);
+    }
+    .large{
+        display: inline;
+    }
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    body{
+        background-color: #36e0bb;
+    }
+    .medium{
+        display: inline;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        background-color: #9d102a;
+    }
+    .small{
+        display: inline;
+    }
+}
