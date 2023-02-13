@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(58, 10, 76);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width:100vw;
+}
+footer{
+    color: white;
+    font-weight: 600;
+   margin:10px;
+}
+footer img{
+    width:20px;
+    margin: 10px 0px;
+} 
+.main-div1>img{
+    width:20px;
+    height: 20px;
+}
+.mark{
+    font-size: 30px;
+    
+}
+.dev{
+    color: rgb(200, 205, 50);
+
+}
+img{
+    width:100px;
+}
+.pc-img{
+    width:250px;
+}
+section{
+    color:white;
+    font-weight: 600;
+
+}
+@media screen and (min-width:425px){
+    nav img{
+        display:none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        gap:15px;
+        padding: 10px;
+    }
+    nav button{
+        padding:10px;
+        color: white;
+        background-color: rgb(97, 33, 225);
+        border-radius: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+    }
+    .main-div1{
+        display: flex;
+        color:white;
+        font-weight: 700;
+        text-align:start;
+    }
+   
+   
+    
+    section>.project-main{
+        width:300px;
+        margin:auto;
+       display: grid;
+       grid-template-columns: repeat(2,150px);
+    }
+    
+}
+@media screen and (max-width:425px){
+  nav a{
+    display: none;
+  }
+  nav button{
+    display: none;
+  }
+  nav img{
+    width:20px;
+    position: fixed;
+    top:1px;
+    left:1px;
+  }
+  main{
+   margin: 40px 0px;;
+  }
+  .main-div1{
+    color: white;
+    font-weight: 700;
+  }
+  .pc-img{
+    margin: 10px 0px;
+  }
+
+}
