@@ -1,0 +1,249 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+body{
+    background-color: #e4e5e5;
+    font-family: 'Manrope', sans-serif;
+}
+
+header{
+ 
+    background-image: url(/photos/mainBackground.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    background-position: center;
+  
+}
+nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding:10px;
+}
+.home{
+    display: flex;
+    gap: 50px;
+    padding-left: 50px;
+   
+ 
+ }
+ .home a{
+     text-decoration: none;
+     color: white;
+     font-weight: 700;
+   
+ }
+.head-details{
+    /* border:1px solid black; */
+    width:37%;
+    padding:30px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 700;
+   
+
+}
+.head-details h1{
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+.mix p{
+    color: blueviolet;
+}
+button{
+   background-color: #5126ac;
+   border: none;
+   border-radius: 20px; 
+   font-weight: 600;
+   margin: 30px 0px;
+   padding:10px 20px;
+   color:white;
+   font-family: 'Manrope', sans-serif;
+}
+.logo{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin:auto;
+    padding: 30px;
+    position:relative;
+    bottom:50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.modern{
+    /* border:1px solid black; */
+    text-align: center;
+    padding:30px;
+    font-weight: 900;
+    font-size: 40px;;
+}
+.card{
+    width:400px;
+   height:420px;
+   border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 50px 10px;
+}
+.card1{
+    position: relative;
+    bottom:50px;
+}
+.card2{
+    position: relative;
+    bottom:25px;
+}
+.card4{
+    position: relative;
+    top:50px;
+}
+.card5{
+    position: relative;
+    top:25px;
+}
+.card6{
+    position: relative;
+    top:75px;
+}
+.mix{
+    display: flex;
+    align-items: center;
+    /* border:1px solid #5126ac; */
+    gap:100px;
+    padding: 0px 30px;
+    width:350px;
+    margin:auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    bottom:50px;
+}
+.feature1{
+    display:flex
+}
+.featureimg{
+    width:400px;
+    height:350px;
+    border-radius: 40px;
+    z-index: 1;
+    position: absolute;
+    left:150px;
+    /* top:10px; */
+}
+.featureimgback{
+    width:600px;
+
+}
+.images{
+    display:flex;
+}
+.desbox{
+    /* border:1px solid #5126ac; */
+    height:200px;
+    width:350px;
+    margin:auto;
+    font-weight: 700;
+
+
+}
+.desbox h1{
+   font-weight: 900;
+   font-size: 38px;
+   padding-bottom: 15px;
+}
+.featureimg2{
+    width:400px;
+    height:350px;
+    border-radius: 40px;
+    /* z-index: 1; */
+    position: absolute;
+    right:150px;
+}
+.subscribe{
+    width:80%;
+    background-color: #0c1ad590;
+    margin: auto;
+    text-align: center;
+    padding:50px;
+    color:white;
+    border-radius: 10px;
+    
+}
+.subscribe h1{
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.subscribe p{
+    width:60%;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 30px;;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.email{
+    display: flex;
+    background-color: #1443cf;
+    padding:15px 45px;;
+    border-radius: 30px;
+    gap:10px;
+}
+input{
+    background-color: #1443cf;
+    border: none;
+}
+.subs{
+    color: #1443cf;
+    background-color: #ffffff;
+    padding:20px;
+    border-radius:30px;
+}
+footer{
+    display:flex;
+}
+.footer-logo{
+    width:20%;
+    margin: auto;
+    font-weight: 600;
+    
+}
+.footer-icon{
+    display: flex;
+    gap:30px;
+    padding:20px 0px;
+}
+.atags{
+    display:flex;
+    gap:60px;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.tag a{
+    text-decoration: none;
+    color:black;
+    padding:15px;
+    font-weight: 700;
+}

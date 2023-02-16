@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f0f4f5;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:70px;
+}
+.logo{
+    width:120px;
+    padding-top:5px;
+} 
+.atags{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    padding-right: 80px;
+}
+.atags a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+}
+form{
+
+    width:300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  
+   
+}
+form h1{
+    text-align: center;
+    padding:20px;
+    font-weight: 900 ;
+}
+main input{
+    border:none;
+    width: 280px;
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin-bottom: 15px;
+
+}
+main textarea{
+    border:none;
+    width: 280px;
+    border-radius: 5px;
+    padding: 5px 2px;
+    padding-bottom: 40px;
+
+}
+button{
+    background-color: #3eb86d;
+    padding:10px 117px;
+    color: white;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+}
+button:hover{
+    cursor: pointer;
+   color: #3eb86d;
+   background-color:#f0f4f5;
+   border: 1px solid #3eb86d;
+}

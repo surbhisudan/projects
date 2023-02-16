@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f0f4f5;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:70px;
+}
+.logo{
+    width:120px;
+    padding-top:5px;
+    
+}
+.atags{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    padding-right: 80px;
+}
+.atags a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.doctor{
+    height:500px;
+    position: relative;
+    left:10px;
+   
+}
+.yellow{
+    position:absolute;
+    top:280px;
+    right:0px;
+    z-index:-1;
+    height:250px;
+}
+.green{
+    position:absolute;
+    top:200px;
+    right:1px; 
+    z-index: -2;
+    height:350px;
+}
+.solutions{
+    width:40%;
+    padding-left: 50px;
+   height:300px;
+   margin-left: 30px;;
+}
+.solutions h1{
+    padding:10px 0px;
+    font-weight: 700;
+    font-size: 50px;;
+}
+.solutions p{
+    font-weight: 600;
+}
+button{
+    background-color: #3eb86d;
+    padding:10px 20px;
+    color: white;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+   color: #3eb86d;
+   background-color:#f0f4f5;
+   border: 1px solid #3eb86d;
+}
+.smalls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.bottomAngle{
+    position: relative;
+    bottom:20px;
+    left:20px;
+}
+.mouse{
+    position: relative;
+    left:50px;
+}
+.stethoscope{
+    width:350px;
+    z-index: -1;
+    position:absolute;
+    bottom:100px;
+    left:350px;
+}
