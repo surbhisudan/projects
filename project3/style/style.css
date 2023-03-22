@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 body{
-    background-image:url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-image:url(/project3/assets/pexels-maxyne-barcel-10402282\ 1.png);
     height:100%;
     
     /* background-position: center; */
@@ -37,7 +37,8 @@ nav button{
     padding:0px 25px;
     border: none;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 main{
 
@@ -61,7 +62,8 @@ main button{
     padding:10px 25px;
     border: none;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 }
 footer{
